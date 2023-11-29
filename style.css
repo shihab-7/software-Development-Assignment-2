@@ -1,0 +1,93 @@
+/* website logo */
+#logo-img{
+    width: 125px;
+    height: 40px;
+}
+
+/* content positioning */
+#item_view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.no_content {
+    position: static;
+}
+
+/* option's button */
+.option_bar button{
+    border: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 6px 18px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-flex;
+    background-color: rgb(255, 88, 88);
+    margin-left: 7px;
+}
+
+/* content card design */
+.content_thumbnail img{
+    width: 310px;
+    height: 200px;
+}
+.profile_picture img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.verified-icon{
+    width: 15px;
+    height: 15px;
+}
+
+/* blog btn */
+#btn{
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(255, 88, 88);
+    font-weight: bold;
+    font-size: 15px;
+    color:white;
+    padding: 10px 15px;
+}
+
+.sort_view_button{
+    background-color: #FF6B6B;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: rgb(143, 246, 250);
+}
+
+#time_display{
+    background-color: #FF6B6B;
+    font-size: medium;
+    font-weight: 500;
+    color: rgb(19, 8, 30);
+}
+
+/* blog html file */
+
+#blog{
+    background-color:rgb(113, 113, 186);
+}
+#headline {
+    margin-top: 20px;
+    text-align: center;
+    background-color: bisque;
+    color:blueviolet ;
+    padding: 5px 5px;
+    font-size: 25px;
+    font-weight: 700;
+}
